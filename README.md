@@ -15,7 +15,7 @@ pip install -r requirements.txt
 2. Run the pipeline on a PDF:
 
 ```bash
-python cli.py process --input sample.pdf --config src/config/pipeline.yaml --out out/result.json
+python cli.py process --input resume/Resume_5_1.pdf --config src/config/pipeline.yaml --out out/Resume_5_1.json
 ```
 
 3. Toggle stages in `src/config/pipeline.yaml` or edit extraction rules in `src/config/mappings.yaml`.
