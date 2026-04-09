@@ -1,0 +1,6 @@
+pdfminer.six>=20221105
+spacy>=3.5.0
+jsonschema>=4.0.0
+ruamel.yaml>=0.17.21
+pytest>=7.0.0
+python-docx>=0.8.11

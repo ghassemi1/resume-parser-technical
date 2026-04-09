@@ -1,0 +1,102 @@
+{
+  "result": {
+    "email": "alex.techman.ai@email.com",
+    "phone": "555) 012-3456",
+    "persons": [
+      "ALEX R. TECHMAN\nAI Engineer",
+      "Large Language Model",
+      "GPT-4",
+      "Claude 3",
+      "RAG Pipelines",
+      "Milvus",
+      "Haystack",
+      "Docker",
+      "Git",
+      "MLflow",
+      "Jira",
+      "Docker"
+    ],
+    "organization": [
+      "Machine Learning Specialist",
+      "Retrieval-Augmented Generation (RAG",
+      "AI",
+      "LangChain",
+      "MLOps",
+      "AWS",
+      "AI/ML",
+      "Prompt Engineering",
+      "TensorFlow",
+      "LangChain",
+      "AutoGen",
+      "SQL",
+      "Cloud & MLOps",
+      "S3",
+      "SageMaker",
+      "Azure Databricks",
+      "CI",
+      "MLOps",
+      "Azure Databricks",
+      "Machine Learning Engineer",
+      "Innovate Corp Toronto",
+      "ON",
+      "PyTorch",
+      "AWS Glue",
+      "S3",
+      "LangChain",
+      "MCP",
+      "Self-Hosted LLM Environment * Configured",
+      "University of Ottawa",
+      "Software Engineering Carleton University",
+      "Databricks Certified Professional Data Scientist"
+    ],
+    "location": [
+      "Agentic AI",
+      "Bash",
+      "Ottawa",
+      "Confluence",
+      "Ottawa",
+      "Ottawa"
+    ],
+    "ner_cardinal": [
+      "555",
+      "1M+",
+      "5"
+    ],
+    "ner_date": [
+      "8+ years",
+      "Jan 2022",
+      "May 2018",
+      "Dec 2021",
+      "daily",
+      "weekly"
+    ],
+    "ner_loc": [
+      "Agentic AI"
+    ],
+    "ner_percent": [
+      "70%",
+      "95%",
+      "40%",
+      "99.9%",
+      "25%"
+    ],
+    "ner_work_of_art": [
+      "Scrum/Agile"
+    ],
+    "ner_product": [
+      "Llama 3"
+    ],
+    "ner_norp": [
+      "French"
+    ],
+    "name": "ALEX R. TECHMAN"
+  },
+  "meta": {
+    "text_extracted": true,
+    "rule_matches": true,
+    "ner": "done",
+    "name_fallback": "first_line",
+    "validation_errors": null,
+    "postprocess": "done"
+  }
+}

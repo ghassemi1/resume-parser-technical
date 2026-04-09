@@ -1,0 +1,24 @@
+
+stages:
+  - name: text_extractor
+    enabled: true
+    params: {}
+
+  - name: rule_based
+    enabled: true
+    params:
+      mappings: src/config/mappings.yaml
+
+  - name: ner
+    enabled: true
+    params:
+      model: en_core_web_sm
+      mappings: src/config/mappings.yaml
+      overwrite: false
+
+  - name: postprocess
+    enabled: true
+    params:
+      schema: src/schema/resume_schema.json
+      fail_on_error: false
+

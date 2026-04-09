@@ -1,0 +1,23 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "Resume",
+	"type": "object",
+	"properties": {
+		"name": { "type": "string" },
+		"email": { "type": "string", "format": "email" },
+		"phone": { "type": "string" },
+		"skills": {
+			"oneOf": [
+				{ "type": "string" },
+				{ "type": "array", "items": { "type": "string" } }
+			]
+		},
+		"experience": {
+			"type": "array",
+			"items": { "type": "object" }
+		}
+	},
+	"required": ["name"],
+	"additionalProperties": true
+}
+

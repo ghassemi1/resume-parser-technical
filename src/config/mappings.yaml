@@ -1,0 +1,19 @@
+
+fields:
+  name:
+    - regex: '(?m)^(?:name|full name)[:\-\s]*([A-Za-z ,.''\-]{2,100})$'
+
+  email:
+    - regex: '([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+)'
+
+  phone:
+    - regex: '(\+?\d[\d\-() ]{7,}\d)'
+
+  skills:
+    - regex: '(?i)skills?[:\-\s]*([A-Za-z0-9, /+\-]+)'
+
+ner_mappings:
+  PERSON: persons
+  ORG: organization
+  GPE: location
+

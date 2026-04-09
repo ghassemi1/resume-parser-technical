@@ -1,0 +1,10 @@
+[project]
+name = "policyreporter-extractor"
+version = "0.1.0"
+description = "Skeleton hybrid pipeline for resume extraction (declarative stages)"
+requires-python = ">=3.13.3,<4.0"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
